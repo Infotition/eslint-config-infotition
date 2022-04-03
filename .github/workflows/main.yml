@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: '16'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm ci
-      - run: npm run lint
+      - run: yarn run install --frozen-lockfile
+      - run: yarn run lint
       - if: ${{ github.event_name != 'release' }}
         run: npm publish --dry-run
       - if: ${{ github.event_name == 'release' }}
