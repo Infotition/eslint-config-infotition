@@ -8,10 +8,10 @@
       "**/.husky/": true,
 
       // FIXED CONFIG FILES         (DO NOT CHANGE)
-      "**/.editorconfig": true,
+      //"**/.editorconfig": true,
       "**/yarn.lock": true,
       "**/tsconfig.json": true,
-      "**/.eslintrc.js": true,
+      //"**/.eslintrc.js": true,
 
       // FIXED CONFIG FOLDERS       (DO NOT CHANGE)
       "**/node_modules/": true,
