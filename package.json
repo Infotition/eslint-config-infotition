@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-infotition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Infotition/eslint-config-infotition.git",
+  "author": "DevTobias <tobi.kaerst@gmx.de>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
+}
