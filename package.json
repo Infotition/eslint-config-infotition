@@ -11,6 +11,12 @@
     "infotition",
     "styleguide"
   ],
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/react.js",
+    "dist/react.d.ts"
+  ],
   "author": "Infotition",
   "license": "MIT",
   "scripts": {
