@@ -14,8 +14,8 @@
   "files": [
     "dist/index.js",
     "dist/index.d.ts",
-    "dist/react.js",
-    "dist/react.d.ts"
+    "dist/next.js",
+    "dist/next.d.ts"
   ],
   "author": "Infotition",
   "license": "MIT",
