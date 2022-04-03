@@ -23,7 +23,7 @@
     "build": "tsc --outDir .",
     "build:dev": "tsc",
     "prepare": "husky install",
-    "clean": "npx rimraf node_modules .husky/_ dist"
+    "clean": "npx rimraf node_modules"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.17.0",
