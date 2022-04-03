@@ -23,7 +23,6 @@
     "build": "tsc --outDir .",
     "build:dev": "tsc",
     "prepare": "husky install",
-    "lint": "eslint .",
     "clean": "npx rimraf node_modules .husky/_ dist"
   },
   "dependencies": {
