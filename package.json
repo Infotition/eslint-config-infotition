@@ -1,9 +1,17 @@
 {
   "name": "eslint-config-infotition",
   "version": "1.0.0",
+  "description": "Infotition standard ESLint config",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/Infotition/eslint-config-infotition.git",
-  "author": "DevTobias <tobi.kaerst@gmx.de>",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "infotition",
+    "styleguide"
+  ],
+  "author": "Infotition",
   "license": "MIT",
   "scripts": {
     "prepare": "husky install"
