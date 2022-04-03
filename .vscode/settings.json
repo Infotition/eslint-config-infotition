@@ -10,8 +10,9 @@
       // FIXED CONFIG FILES         (DO NOT CHANGE)
       "**/.editorconfig": true,
       "**/yarn.lock": true,
-      //"**/tsconfig.json": true,
-      //"**/.eslintrc.js": true,
+      "**/tsconfig.json": true,
+      "**/.eslintrc.js": true,
+      "**/.gitattributes": true,
 
       // FIXED CONFIG FOLDERS       (DO NOT CHANGE)
       "**/node_modules/": true,
