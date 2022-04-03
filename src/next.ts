@@ -56,6 +56,7 @@ const config: Linter.Config = {
     'react/react-in-jsx-scope': 'off',
     'import/order': ['error', { alphabetize: { order: 'asc' } }],
     'react/prop-types': 'off',
+    'import/no-extraneous-dependencies': 'off'
   },
   parser: '@typescript-eslint/parser',
   plugins: ['react', '@typescript-eslint', 'jsx-a11y', 'import', 'jest-dom'],
