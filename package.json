@@ -16,6 +16,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "husky install",
+    "lint": "yarn run build && eslint .",
     "clean": "npx rimraf node_modules .husky/_ dist"
   },
   "devDependencies": {
