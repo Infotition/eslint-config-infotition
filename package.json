@@ -15,7 +15,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "clean": "npx rimraf node_modules .husky/_ dist"
   },
   "devDependencies": {
     "@infotition/prettier-config": "^1.0.0",
