@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-infotition",
+  "name": "@infotition/eslint-config",
   "version": "1.0.0",
   "description": "Infotition standard ESLint config",
   "main": "index.js",
